@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+body {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.quiz-container {
+    background-color: white;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.quiz-title {
+    padding: 75px;
+}
+ 
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+ul li {
+  font-family:'Darumadrop One', cursive; 
+  font-size: 16px;  
+}
+
+ul li label {
+    cursor:pointer;
+}
+

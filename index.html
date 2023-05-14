@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
   <title>Quiz</title>
 </head>
+
 <body>
-  <h1> Quiz </h1>
-  
+  <div class="top"></div>
+    <button>View Highscores</button>
+    <p>Timer</p>
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-title">
+      <h2 id="questions">Question</h2>
+      <ul>
+        <li><input type="radio" name="answer" id="a1" class="answer">
+          <label for="a1" id="a1-text">Answer</label></li>
+        <li><input type="radio" name="answer" id="a2" class="answer">
+          <label for="a2" id="a2-text">Answer</label></li>
+        <li><input type="radio" name="answer" id="a3" class="answer">
+          <label for="a3" id="a3-text">Answer</label></li>
+        <li><input type="radio" name="answer" id="a4" class="answer">
+          <label for="a4" id="a4-text">Answer</label></li>
+      </ul>
+    </div>
+  </div>
   <script src="Assets/js/script.js"></script>
 </body>
+
 </html>
