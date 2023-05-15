@@ -5,41 +5,78 @@
 
 body {
     background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+
 }
 
+nav {
+    font-family: 'Darumadrop One', cursive;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
 
+nav button {
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Darumadrop One', cursive;
+}
+
+header button {
+    background-color: white;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+main {
+   
+}
 
 h2 {
-    padding: 10px;
     text-align: center;
     font-family: 'Darumadrop One', cursive;
 }
 
 .quiz-container {
-    background-color: white;
-    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    display: block;
 }
 
 .quiz-title {
-    padding: 75px;
 }
- 
+
 ul {
     list-style-type: none;
     padding: 5px;
+    text-align: center;
 }
 
 ul li {
-  font-family:'Darumadrop One', cursive; 
-  font-size: 16px;  
+    font-family: 'Darumadrop One', cursive;
+    font-size: 16px;
 }
 
 ul li label {
-    cursor:pointer;
+    cursor: pointer;
+}
+.finish-screen {
+    display: block;
+    text-align: center;
+    font-family: 'Darumadrop One', cursive;
 }
 
+section button {
+    font-family: 'Darumadrop One', cursive;
+    background-color: white;
+}
+
+.highscores ul {
+    
+}
