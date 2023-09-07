@@ -15,15 +15,15 @@
 <body>
   <nav>
     <button>View Highscores</button>
-    <p>Timer: 00:00</p>
+    <p class="timer">Timer: 00:00</p>
   </nav>
   <header class="quiz-intro">
     <h1>Quiz</h1>
     <p>Press Start to begin the quiz!</p>
-    <button>Start</button>
+    <button class="start">Start</button>
   </header>
   <main>
-    <div class="quiz-container" id="quiz">
+    <div class="quiz" id="quiz">
       <div class="quiz-title">
         <h2 id="questions">Question</h2>
         <ul>
@@ -42,11 +42,11 @@
         </ul>
       </div>
     </div>
-    <section class="finish-screen">
+    <section class="finish">
       <h2>Finished!</h2>
       <p>Your score: 00</p>
       <div>
-        <label for="">Enter initials:</label>
+        <label for="local-storage">Enter initials:</label>
         <input type="text">
         <button>Submit</button>
       </div>
@@ -61,8 +61,6 @@
       </ul>
 
     </section>
-
-
   </main>
   <script src="Assets/js/script.js"></script>
 </body>
