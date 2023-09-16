@@ -1,76 +1,91 @@
-* {
-    box-sizing: border-box;
-    margin: 10px;
-}
-
+/*Collaborated with Janvier Mbilizi*/
 body {
+    font-family: "Darumadrop One";
     background-color: pink;
-
-}
-
-nav {
-    font-family: 'Darumadrop One', cursive;
-    font-size: 20px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-nav button {
-    background-color: white;
-    cursor: pointer;
-    font-family: 'Darumadrop One', cursive;
-    font-size: 20px;
-}
-
-header {
+  }
+  .wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .start {
     text-align: center;
-    margin-top: 50px;
-    font-family: 'Darumadrop One', cursive;
-}
-
-header button {
-    background-color: white;
-    font-family: 'Darumadrop One', cursive;
-    font-size: 20px;
+  }
+  
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    border-top: 2px solid rgb(201, 193, 193);
+  }
+  
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
     cursor: pointer;
-}
-
-main {}
-
-h2 {
-    text-align: center;
-    font-family: 'Darumadrop One', cursive;
-}
-
-.quiz {}
-
-.quiz-title {}
-
-ul {
-    list-style-type: none;
+    font-size: 100%;
+    font-family: "Darumadrop One";
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    box-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;;
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
     padding: 5px;
-    text-align: center;
-}
-
-ul li {
-    font-family: 'Darumadrop One', cursive;
-    font-size: 16px;
-}
-
-ul li label {
-    cursor: pointer;
-}
-
-.finish {
-
-    text-align: center;
-    font-family: 'Darumadrop One', cursive;
-}
-
-section button {
-    font-family: 'Darumadrop One', cursive;
-    background-color: white;
-}
-
-.highscores ul {}
+    list-style: decimal inside none;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #dfdae7;
+  }
+  
